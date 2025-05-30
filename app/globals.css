@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --accent: #2563eb; /* blue-600 */
+  --font-sans: var(--font-geist-sans, ui-sans-serif);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #f3f4f6;
+    --accent: #60a5fa; /* blue-400 */
+  }
+}
+
+body {
+  @apply bg-[var(--background)] text-[var(--foreground)] font-sans;
+}
