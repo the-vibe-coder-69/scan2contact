@@ -5,19 +5,19 @@ import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
 
-    apiKey: "AIzaSyAgeYUJhOHRe9uBXuoN5Xjwb8l4PDjJ1pw",
+    apiKey: "",
   
-    authDomain: "contact-snap.firebaseapp.com",
+    authDomain: "",
   
-    projectId: "contact-snap",
+    projectId: "",
   
-    storageBucket: "contact-snap.firebasestorage.app",
+    storageBucket: "",
   
-    messagingSenderId: "850462001681",
+    messagingSenderId: "",
   
-    appId: "1:850462001681:web:5f397c0b281f409b2c3fb0",
+    appId: "",
   
-    measurementId: "G-JVGXTB0VNC"
+    measurementId: ""
   
   };
   
@@ -30,19 +30,3 @@ export { db };
 
 
 
-// rules_version = '2';
-
-
-// service cloud.firestore {
-
-//   match /databases/{database}/documents {
-
-//     match /{document=**} {
-
-//       allow read, write: if false;
-
-//     }
-
-//   }
-
-// }
